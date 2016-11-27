@@ -17,7 +17,7 @@ avatar: https://avatars0.githubusercontent.com/u/1236811?v=3&s=460
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: aaron@aaronschachter.com
   facebook:
   flickr:
   github: aaronschachter
@@ -55,6 +55,9 @@ baseurl: ""
 permalink: /:title/
 
 collections:
+  comics:
+    output: true
+    permalink: /comics/:path/
   haiku:
     output: true
     permalink: /haiku/:path/
