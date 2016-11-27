@@ -17,9 +17,6 @@ Amateur, at best. I've studied improv at the UCB and PIT theaters in NYC.
 * Improvisor, puppeteer for DoSomething.org -- interviewed [Tyler Oakley](https://www.youtube.com/watch?v=wetvnbDB4wg), [Grace Helbig](https://www.youtube.com/watch?v=L-SkjPiHzFg)
 * Failed career as a YouTuber: [Guide to NYC](https://youtu.be/ByxaDjOGAds), [T2: A one-man play](https://youtu.be/DrvbVrv9j9U)
 
-### Contact
+### Credits
 
-* [Email](mailto:aaron@aaronschachter.com)
-* [Twitter](https://twitter.com/aaronschachter)
-* [LinkedIn](https://www.linkedin.com/in/aaronschachter)
-
+This site was built with [Jekyll Now](https://github.com/barryclark/jekyll-now).
