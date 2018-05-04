@@ -6,7 +6,7 @@ permalink: /code/
 
 [github.com/aaronschachter](https://github.com/aaronschachter)
 
-I've been the tech lead of the [DoSomething.org chatbot](https://github.com/dosomething/gambit-conversations) for the past 2+ years, responsible for:
+I'm an engineer at DoSomething.org. For the past 2+ years, I've been the tech lead of our [chatbot](https://github.com/dosomething/gambit-conversations), responsible for:
 
 * Architecting and implementing the chatbot CMS and API for integrating with internal DoSomething APIs (users, campaigns, and user campaign activity) and external APIs (Twilio & Slack for sending and receiving user messages, Contentful for chatbot content)
 
@@ -16,7 +16,7 @@ I've been the tech lead of the [DoSomething.org chatbot](https://github.com/doso
 
 * Building out an internal [web admin dashboard](https://github.com/dosomething/gambit-admin) in React
 
-In reverse order, here are some other notable work projects I've led engineering for:
+Prior to the chatbot, I've led engineering for a few other DoSomething projects:
 
 * [DoSomething.org iOS app](https://github.com/dosomethingarchive/letsdothis-ios) -- A hybrid Objective C and React Native iOS app for integrating with internal DS user, campaign, and campaign activity API's. Also built a news feed CMS and API with WordPress for mobile app consumption.
 
@@ -35,8 +35,7 @@ Here some a few links to DoSomething docs I've written:
 
 * [Technical spec: Automating chatbot campaign completion reminders with Customer.io](https://docs.google.com/document/d/1b3WFeH9gcPlnshKEOLgO001emzp-k_kBz7NQ3ivzjtM/edit?usp=sharing) -- Sending automated messages to DoSomething users to remind them to complete volunteer campaigns they have signed up for via chatbot
 
-
-* [Technical spec: supporting multiple chatbot campaign conversation types](https://docs.google.com/document/d/1VjpgRTeVakbbSr1WwkR4tEjXiiVZ9i1bAEkNInsWQrk/edit) -- Implementing the chatbot campaign templates in Contentful and exposing via chatbot API
+* [Technical spec: sSpporting multiple chatbot conversation types](https://docs.google.com/document/d/1VjpgRTeVakbbSr1WwkR4tEjXiiVZ9i1bAEkNInsWQrk/edit) -- Implementing the chatbot campaign templates in Contentful and exposing via chatbot API
 
 ### Flowcharts
 
