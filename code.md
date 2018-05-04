@@ -3,38 +3,48 @@ layout: page
 title: Code
 permalink: /code/
 ---
-I've been coding in Javascript and Objective C most recently ([Github](http://github.com/aaronschachter) profile), but also have years of experience working with PHP and MySQL ([Drupal.org](https://www.drupal.org/u/aaronschachter) profile).
 
-## Featured Projects
+[github.com/aaronschachter](https://github.com/aaronschachter)
 
-### Interviewbud 
-* [Source](http://github.com/interviewbud)
-* [App Store](https://itunes.apple.com/us/app/interviewbud/id1133808097?ls=1&mt=8)
-* [Facebook Bot](http://facebook.com/interviewbud)
+I've been the tech lead of the [DoSomething.org chatbot](https://github.com/dosomething/gambit-conversations) for the past 2+ years, responsible for:
 
-My most recent side project is Interviewbud, an app for practicing how to answer job interview questions. It's available as an iPhone app or a Facebook Messenger bot.
+* Architecting and implementing the chatbot CMS and API for integrating with internal DoSomething APIs (users, campaigns, and user campaign activity) and external APIs (Twilio & Slack for sending and receiving user messages, Contentful for chatbot content)
 
-### Gambit 
-* [Source](http://github.com/dosomething/gambit) - *Node.js*
+    * Building in Node.js, MongoDB, and [Rivescript](https://www.rivescript.com/)
 
-Gambit is a DoSomething.org chatbot that powers signup and completion of volunteer campaigns via SMS.
+    * Creating [technical specifications and documentation](#technical-writing) in Google docs, Lucidchart
 
-### DoSomething: Take Action on the News
-* [Source](http://github.com/dosomething/letsdothis-ios) - *Objective C, React Native*
-* [App Store](https://itunes.apple.com/us/app/dosomething-take-action-on/id998995766?ls=1&mt=8)
+* Building out an internal [web admin dashboard](https://github.com/dosomething/gambit-admin) in React
 
-The DoSomething.org mobile app delivers news content, along with related DoSomething volunteer campaigns to complete and make a difference. I was the lead engineer for our iOS app.
+In reverse order, here are some other notable work projects I've led engineering for:
 
-### SMART Recovery: Cost Benefit Analysis
-* [Source](https://github.com/SMARTRecovery/CostBenefit.objc) - *Objective C*
-* [App Store](https://itunes.apple.com/us/app/smart-recovery-cost-benefit/id988593978?mt=8)
+* [DoSomething.org iOS app](https://github.com/dosomethingarchive/letsdothis-ios) -- A hybrid Objective C and React Native iOS app for integrating with internal DS user, campaign, and campaign activity API's. Also built a news feed CMS and API with WordPress for mobile app consumption.
 
-I developed the [Smart Recovery](http://www.smartrecovery.org/) app as my 1-month volunteer sabbatical at DoSomething.org.
+    * Note: the DoSomething apps are no longer available in the Apple or Google App Stores.
 
-### Drupal Media: thePlatform mpx
-* [Source](http://cgit.drupalcode.org/media_theplatform_mpx/tree/?id=8195318&h=7.x-2.x) - *PHP*
-* [Drupal.org](https://www.drupal.org/project/media_theplatform_mpx)
+* [SMART Recovery iOS app](https://itunes.apple.com/us/app/smart-recovery-cost-benefit-analysis/id988593978?mt=8) -- I took a one month sabbatical while at DoSomething.org to volunteer at [SMART Recovery](https://www.smartrecovery.org/), designing and implementing an iOS version of a paper worksheet used for addiction recovery.
 
-I developed the first release of [thePlatform mpx](https://www.comcasttechnologysolutions.com/our-portfolio/video-platform/mpx) (acquired by Comcast) Drupal 7 module while working for [NorthPoint Digital](http://northpointdigital.com/) (acquired by Ernst & Young).
+* [Phoenix](https://github.com/dosomething/phoenix) - A DoSomething.org PHP/MySQL Drupal 7 application that we now consider "the monolith". I architected and developed the backend for the Campaign and Campaign Activity components of the DoSomething platform from scratch, after reviewing and maintaing the legacy platform inherited from a third-party agency.
 
+
+## Technical writing
+
+Here some a few links to DoSomething docs I've written:
+
+* [Documentation: Chatbot campaign message templates](https://github.com/dosomething/gambit-admin/wiki/Campaigns) -- Editors' guide to configuring chatbot campaigns to collect various types of user activity (some campaigns require users to submit a photo, others may simply require a text answer to a question)
+
+* [Technical spec: Automating chatbot campaign completion reminders with Customer.io](https://docs.google.com/document/d/1b3WFeH9gcPlnshKEOLgO001emzp-k_kBz7NQ3ivzjtM/edit?usp=sharing) -- Sending automated messages to DoSomething users to remind them to complete volunteer campaigns they have signed up for via chatbot
+
+
+* [Technical spec: supporting multiple chatbot campaign conversation types](https://docs.google.com/document/d/1VjpgRTeVakbbSr1WwkR4tEjXiiVZ9i1bAEkNInsWQrk/edit) -- Implementing the chatbot campaign templates in Contentful and exposing via chatbot API
+
+### Flowcharts
+
+* [Chatbot API](https://github.com/dosomething/gambit-conversations/wiki) - points of entry for chatbot conversations, with integrations per route
+
+<a href="https://user-images.githubusercontent.com/1236811/39599894-f403295c-4ed1-11e8-8119-cb083eb7aabf.jpeg"><img src="https://user-images.githubusercontent.com/1236811/39599894-f403295c-4ed1-11e8-8119-cb083eb7aabf.jpeg"></a>
+
+* [Chatbot replies](https://github.com/dosomething/gambit-conversations/wiki#member-messages) - how the chatbot replies, with related integrations
+
+<a href="https://user-images.githubusercontent.com/1236811/39645960-bf6256f6-4f8e-11e8-8605-0546cbf740d5.jpeg"><img src="https://user-images.githubusercontent.com/1236811/39645960-bf6256f6-4f8e-11e8-8605-0546cbf740d5.jpeg"></a>
 
